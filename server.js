@@ -6,7 +6,7 @@ global.Vocab = require('./api/models/vocabModel');
 const routes = require('./api/routes/vocabRoutes');
 
 mongoose.set('strictQuery', true);
-mongoose.connect('mongodb://localhost/vocab-builder');
+mongoose.connect('mongodb+srv://minhkhoapham1208:yTedakhPy2F0fppz@cluster0.59zfgsm.mongodb.net/vocab-builder');
 const port = process.env.PORT || 3000;
 const app = express();
 
